@@ -609,6 +609,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rive-app/canvas@npm:2.31.5":
+  version: 2.31.5
+  resolution: "@rive-app/canvas@npm:2.31.5"
+  checksum: c421062e5ac171a4a92bf92ea3b76e90a1863bd46989bf73f4f61d533aeaa1dcc538c340e3b3e05cd63f4fcd32e8303bc58b0bbe5f178242fc16fc32986c9111
+  languageName: node
+  linkType: hard
+
+"@rive-app/react-canvas@npm:^4.23.3":
+  version: 4.23.3
+  resolution: "@rive-app/react-canvas@npm:4.23.3"
+  dependencies:
+    "@rive-app/canvas": 2.31.5
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0
+  checksum: 51f571ce7bd28d7fcb8c9f4f638974c32ea6ee3a7b38107005a7f7270a4d43264abbb747d9548ef81a44a6db211c1deff53df5d2a5da03c80281a038661c5722
+  languageName: node
+  linkType: hard
+
 "@rollup/rollup-android-arm-eabi@npm:4.48.1":
   version: 4.48.1
   resolution: "@rollup/rollup-android-arm-eabi@npm:4.48.1"
@@ -1070,6 +1088,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "canvas@workspace:."
   dependencies:
+    "@rive-app/react-canvas": ^4.23.3
     "@tailwindcss/postcss": ^4.1.12
     autoprefixer: ^10.4.21
     next: ^15.5.3
